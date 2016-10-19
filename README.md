@@ -10,7 +10,7 @@
 
 ##### Cartfile
 ```
-github "antscript/ASLauncher" 
+github "antscript/ASLauncherMac" 
 ```
 
 ##### update
