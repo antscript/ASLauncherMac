@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F58B35F1DB71234004DCABB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8F58B35E1DB71234004DCABB /* README.md */; };
 		8F66654F1DB70B9D002A1FBC /* ASLauncherMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F66654D1DB70B9D002A1FBC /* ASLauncherMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F6665581DB70E51002A1FBC /* ASLauncherMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6665571DB70E51002A1FBC /* ASLauncherMac.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F58B35E1DB71234004DCABB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F66654A1DB70B9D002A1FBC /* ASLauncherMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLauncherMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F66654D1DB70B9D002A1FBC /* ASLauncherMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLauncherMac.h; sourceTree = "<group>"; };
 		8F66654E1DB70B9D002A1FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,7 +32,6 @@
 		8F6665401DB70B9D002A1FBC = {
 			isa = PBXGroup;
 			children = (
-				8F58B35E1DB71234004DCABB /* README.md */,
 				8F66654C1DB70B9D002A1FBC /* ASLauncherMac */,
 				8F66654B1DB70B9D002A1FBC /* Products */,
 			);
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F58B35F1DB71234004DCABB /* README.md in Sources */,
 				8F6665581DB70E51002A1FBC /* ASLauncherMac.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
