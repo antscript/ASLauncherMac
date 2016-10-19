@@ -84,3 +84,8 @@ func applicationDidFinishLaunching(_ aNotification: Notification) {
     ASLauncherMac.launch(bundleID: "your-main-app-bundle-id", AppName: "your-app-display-name")
 }
 ```
+
+=============
+LICENSE
+
+[MIT](https://github.com/antscript/ASLauncherMac/blob/master/LICENSE)
