@@ -37,7 +37,7 @@ set skip install to YES
 
 #### **Setup 3**: Setup Main Target
 
-![add copy files](https://github.com/antscript/ASLauncherMac/raw/master/images/add_copy1.png)
+![add copy files](https://github.com/antscript/ASLauncherMac/raw/master/images/add_copy_1.png)
 
 ![add copy files](https://github.com/antscript/ASLauncherMac/raw/master/images/add_copy_files.png)
 
