@@ -1,12 +1,16 @@
-# Launch at Login Tool for Mac Developer
+### Easy to Add  
+# **Launch at Login** 
+### for Your Mac App
+
 --------------
+
 
 ## Install
 * Carthage
 
 ##### Cartfile
 ```
-github "antscript/ASLauncher" 
+github "antscript/ASLauncherMac" 
 ```
 
 ##### update
