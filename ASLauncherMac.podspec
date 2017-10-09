@@ -30,7 +30,7 @@ Easy to Add Launch at Login for Your Mac App...
 
   s.osx.deployment_target = '10.10'
 
-  s.source_files = 'ASLauncherMac/Classes/**/*'
+  s.source_files = 'ASLauncherMac/Classes/*'
   
   # s.resource_bundles = {
   #   'ASLauncherMac' => ['ASLauncherMac/Assets/*.png']
