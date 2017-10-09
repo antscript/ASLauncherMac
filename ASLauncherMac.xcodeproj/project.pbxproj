@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B66ED9131D4289DE502BACA /* Pods_ASLauncherMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FE0426DA550178BC3642D8 /* Pods_ASLauncherMac.framework */; };
 		8F58B35F1DB71234004DCABB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8F58B35E1DB71234004DCABB /* README.md */; };
 		8F66654F1DB70B9D002A1FBC /* ASLauncherMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F66654D1DB70B9D002A1FBC /* ASLauncherMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F6665581DB70E51002A1FBC /* ASLauncherMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6665571DB70E51002A1FBC /* ASLauncherMac.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		674322668A108778F1E80A6D /* Pods-ASLauncherMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLauncherMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASLauncherMac/Pods-ASLauncherMac.debug.xcconfig"; sourceTree = "<group>"; };
+		89FE0426DA550178BC3642D8 /* Pods_ASLauncherMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLauncherMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F58B35E1DB71234004DCABB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F66654A1DB70B9D002A1FBC /* ASLauncherMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLauncherMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F66654D1DB70B9D002A1FBC /* ASLauncherMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLauncherMac.h; sourceTree = "<group>"; };
 		8F66654E1DB70B9D002A1FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6665571DB70E51002A1FBC /* ASLauncherMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLauncherMac.swift; sourceTree = "<group>"; };
+		A7D01AAF944065EBC959BCFE /* Pods-ASLauncherMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLauncherMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASLauncherMac/Pods-ASLauncherMac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,18 +29,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B66ED9131D4289DE502BACA /* Pods_ASLauncherMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CD80B24E4C2DAF04D165B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89FE0426DA550178BC3642D8 /* Pods_ASLauncherMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F6665401DB70B9D002A1FBC = {
 			isa = PBXGroup;
 			children = (
 				8F58B35E1DB71234004DCABB /* README.md */,
 				8F66654C1DB70B9D002A1FBC /* ASLauncherMac */,
 				8F66654B1DB70B9D002A1FBC /* Products */,
+				A8A010F481B31BAEB80F99CA /* Pods */,
+				2CD80B24E4C2DAF04D165B63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +73,15 @@
 			path = ASLauncherMac;
 			sourceTree = "<group>";
 		};
+		A8A010F481B31BAEB80F99CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				674322668A108778F1E80A6D /* Pods-ASLauncherMac.debug.xcconfig */,
+				A7D01AAF944065EBC959BCFE /* Pods-ASLauncherMac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -76,10 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F6665521DB70B9D002A1FBC /* Build configuration list for PBXNativeTarget "ASLauncherMac" */;
 			buildPhases = (
+				E40356FE0396579BD5C1AA65 /* [CP] Check Pods Manifest.lock */,
 				8F6665451DB70B9D002A1FBC /* Sources */,
 				8F6665461DB70B9D002A1FBC /* Frameworks */,
 				8F6665471DB70B9D002A1FBC /* Headers */,
 				8F6665481DB70B9D002A1FBC /* Resources */,
+				A471C292F3A692C056BACD81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A471C292F3A692C056BACD81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLauncherMac/Pods-ASLauncherMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E40356FE0396579BD5C1AA65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASLauncherMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F6665451DB70B9D002A1FBC /* Sources */ = {
@@ -194,6 +256,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -239,6 +302,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -246,6 +310,7 @@
 		};
 		8F6665531DB70B9D002A1FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674322668A108778F1E80A6D /* Pods-ASLauncherMac.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -264,12 +329,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		8F6665541DB70B9D002A1FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D01AAF944065EBC959BCFE /* Pods-ASLauncherMac.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -287,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.antscript.ASLauncherMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

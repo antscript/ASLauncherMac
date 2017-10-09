@@ -16,7 +16,7 @@ public class ASLauncherMac {
     
     
     static public func launch(bundleID:String, AppName:String) {
-        let apps = NSWorkspace.shared().runningApplications
+        let apps = NSWorkspace.shared.runningApplications
         
         for app in apps {
             if app.bundleIdentifier == bundleID {
@@ -37,13 +37,13 @@ public class ASLauncherMac {
         
         let mainPath = NSString.path(withComponents: components)
         if debug {
-            let result = NSWorkspace.shared().launchApplication(mainPath)
+            let result = NSWorkspace.shared.launchApplication(mainPath)
             let notification = NSUserNotification()
             notification.title = "launch success:\(result)"
             notification.informativeText = mainPath
             NSUserNotificationCenter.default.deliver(notification)
         } else {
-             NSWorkspace.shared().launchApplication(mainPath)
+             NSWorkspace.shared.launchApplication(mainPath)
         }
         
         

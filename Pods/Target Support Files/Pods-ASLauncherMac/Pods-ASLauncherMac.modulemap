@@ -1,0 +1,6 @@
+framework module Pods_ASLauncherMac {
+  umbrella header "Pods-ASLauncherMac-umbrella.h"
+
+  export *
+  module * { export * }
+}
