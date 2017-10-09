@@ -6,6 +6,14 @@
 
 
 ## Install
+
+* Cocoapods
+
+##### Podfile
+```
+pod "ASLauncherMac"
+```
+
 * Carthage
 
 ##### Cartfile
