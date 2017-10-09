@@ -1,0 +1,6 @@
+framework module ASLauncherMac {
+  umbrella header "ASLauncherMac-umbrella.h"
+
+  export *
+  module * { export * }
+}

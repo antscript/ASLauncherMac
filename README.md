@@ -1,5 +1,5 @@
-### Easy to Add  
-# **Launch at Login** 
+### Easy to Add
+# **Launch at Login**
 ### for Your Mac App
 
 --------------
@@ -10,7 +10,7 @@
 
 ##### Cartfile
 ```
-github "antscript/ASLauncherMac" 
+github "antscript/ASLauncherMac"
 ```
 
 ##### update
@@ -80,12 +80,12 @@ ASLauncherMac.disableLaunchAtLogin()
 ```
 
 ```
-// launch main app from launcher : 
+// launch main app from launcher :
 // add to Launcher -> AppDelegate -> applicationDidFinishLaunching
 
 func applicationDidFinishLaunching(_ aNotification: Notification) {
-    ASLauncherMac.debug = true
-    ASLauncherMac.launch(bundleID: "your-main-app-bundle-id", AppName: "your-app-display-name")
+ASLauncherMac.debug = true
+ASLauncherMac.launch(bundleID: "your-main-app-bundle-id", AppName: "your-app-display-name")
 }
 ```
 
@@ -93,3 +93,4 @@ func applicationDidFinishLaunching(_ aNotification: Notification) {
 LICENSE
 
 [MIT](https://github.com/antscript/ASLauncherMac/blob/master/LICENSE)
+

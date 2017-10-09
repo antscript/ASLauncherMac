@@ -1,0 +1,22 @@
+{
+  "name": "ASLauncherMac",
+  "version": "0.1.0",
+  "summary": "A short description of ASLauncherMac.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/n-vtshadow/ASLauncherMac",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "n-vtshadow": "antscript@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/n-vtshadow/ASLauncherMac.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASLauncherMac/Classes/**/*"
+}

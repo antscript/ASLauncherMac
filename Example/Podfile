@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ASLauncherMac_Tests' do
+  pod 'ASLauncherMac', :path => '../'
+  
+  
+end
