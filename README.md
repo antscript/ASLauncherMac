@@ -4,6 +4,8 @@
 
 --------------
 
+## Require
+* Swift 4.0
 
 ## Install
 
